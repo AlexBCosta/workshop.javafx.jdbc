@@ -34,7 +34,7 @@ public class MainViewController implements Initializable {
 
 	@FXML
 	public void onMenuItemDepartment() {
-		JOptionPane.showMessageDialog(null, "Department = Departamentos");
+		loadView("/gui/DepartmentList.fxml");
 	}
 
 	@FXML
