@@ -2,6 +2,7 @@ module workshop.javafx.jdbc {
 	requires javafx.controls;
 	requires javafx.fxml;
 	requires java.desktop;
+	requires java.sql;
 
 	// add
 	exports gui;
