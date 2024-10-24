@@ -5,9 +5,13 @@ module workshop.javafx.jdbc {
 
 	// add
 	exports gui;
+	exports model.entities;
+	exports model.services;
 
 	// add
 	opens gui;
+	opens model.entities;
+	opens model.services;
 
 	opens application to javafx.graphics, javafx.fxml;
 }
